@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
+import { Container, Row, Col, Form, FormGroup, Input, Alert } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 
@@ -25,7 +25,14 @@ const socialLinks = [
   },
 ];
 
+
+
 const Contact = () => {
+  const [active,setActive]= useState(false)
+  const handleSubmit = (e)=>{
+    e.preventDefault()
+    setActive(true)
+  }
   return (
     <Helmet title="Contact">
       <CommonSection title="Contact" />
@@ -50,9 +57,19 @@ const Contact = () => {
                   ></textarea>
                 </FormGroup>
 
-                <button className=" contact__btn" type="submit">
+                <button onClick={handleSubmit} className=" contact__btn" type="submit">
                   Send Message
                 </button>
+                {
+                  active ? (
+                    <Alert color="primary">
+                         Hey! Pay attention.
+                    </Alert>
+                  ) : (
+                    <></>
+                  )
+                }
+                    
               </Form>
             </Col>
 
