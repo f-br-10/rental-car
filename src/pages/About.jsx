@@ -30,17 +30,19 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                As a leading transportation service provider, our commitment to safety is unwavering. 
+                We prioritize the well-being of our passengers and take every measure to provide safe ride solutions. 
+                Our fleet of vehicles is regularly maintained to ensure they are in optimal condition, and we adhere 
+                to stringent safety standards in accordance with industry regulations. 
+                Our drivers undergo thorough screening and training to ensure they are qualified and responsible,
+                 and we continuously monitor their performance to maintain the highest level of safety.
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Additionally, we invest in advanced technology to enhance safety, 
+                including real-time GPS tracking, emergency response systems, and safety protocols
+                 for unexpected situations. We understand the importance of safety in transportation, 
+                 and our team is dedicated to providing reliable and secure rides for our valued customers.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
