@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col,Button } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
 
@@ -41,17 +41,15 @@ const Header = () => {
           <Row>
             <Col lg="6" md="6" sm="6">
               <div className="header__top__left">
-                <span>Need Help?</span>
-                <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +21657821489
-                </span>
+               <span>Rent Car </span>
+                
               </div>
             </Col>
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
               <Link to="/login">
-            <button className="navButton">Login</button>
+            <Button color="success" outline className="navButton">Login</Button>
             </Link>
 
             
@@ -72,7 +70,7 @@ const Header = () => {
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
                     <span>
-                      Rent Car <br /> Service
+                      Manar Car
                     </span>
                   </Link>
                 </h1>
@@ -86,7 +84,7 @@ const Header = () => {
                 </span>
                 <div className="header__location-content">
                   <h4>tunisie</h4>
-                  <h6>tunis</h6>
+                  <h6>manar</h6>
                 </div>
               </div>
             </Col>
@@ -98,7 +96,7 @@ const Header = () => {
                 </span>
                 <div className="header__location-content">
                   <h4>Sunday to Friday</h4>
-                  <h6>10am - 7pm</h6>
+                  <h6>10am - 5pm</h6>
                 </div>
               </div>
             </Col>
@@ -109,11 +107,11 @@ const Header = () => {
               sm="0"
               className=" d-flex align-items-center justify-content-end "
             >
-              <button className="header__btn btn ">
+              <Button color="success" className="header__btn btn ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Request a call
+                  <i class="ri-phone-line"></i> help? 
                 </Link>
-              </button>
+              </Button>
             </Col>
           </Row>
         </Container>

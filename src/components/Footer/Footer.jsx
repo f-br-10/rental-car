@@ -9,12 +9,6 @@ const quickLinks = [
     path: "/about",
     display: "About",
   },
-
-  {
-    path: "#",
-    display: "Privacy Policy",
-  },
-
   {
     path: "/cars",
     display: "Car Listing",
@@ -43,16 +37,17 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    Rent Car <br /> Service
+                  Manar Car
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+            Welcome to Manar Carhabti , your trusted car rental agency! We are dedicated to providing reliable and convenient car rental 
+              solutions to make your travels easy and enjoyable. Our experienced team is here to assist you throughout the entire
+               rental process, from reservation to return, and provide personalized recommendations and tips for your trip. We take
+                pride in our commitment to quality, affordability, and customer satisfaction, and look forward to serving your car
+                 rental needs.
             </p>
           </Col>
 
@@ -75,7 +70,7 @@ const Footer = () => {
               <p className="office__info">tunis</p>
               <p className="office__info">Phone: +2165478963</p>
 
-              <p className="office__info">Email: firasbrinis@gmail.com</p>
+              <p className="office__info">Email: ManarCar@gmail.com</p>
 
               <p className="office__info">Office Time: 10am - 7pm</p>
             </div>
@@ -98,7 +93,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Firas Birnis. All rights reserved.
+                ManarCarhabti. All rights reserved.
               </p>
             </div>
           </Col>

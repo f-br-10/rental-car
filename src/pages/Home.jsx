@@ -17,8 +17,6 @@ const Home = () => {
       {/* ============= hero section =========== */}
       <section className="p-0 hero__slider-section">
         <HeroSlider />
-        <div className="hero__form">  
-        </div>
       </section>
       {/* =========== about section ================ */}
       <AboutSection />
