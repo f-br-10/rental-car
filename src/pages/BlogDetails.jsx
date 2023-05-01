@@ -43,9 +43,6 @@ const BlogDetails = () => {
                 </div>
 
                 <p className="section__description">{blog.description}</p>
-                <h6 className="ps-5 fw-normal">
-                  <blockquote className="fs-4">{blog.quote}</blockquote>
-                </h6>
                 <p className="section__description">{blog.description}</p>
               </div>
 
@@ -64,8 +61,6 @@ const BlogDetails = () => {
                     </span>
                   </div>
                 </div>
-
-                {/* =============== comment form ============ */}
                 <div className="leave__comment-form mt-5">
                   <h4>Leave a Comment</h4>
                   <p className="section__description">

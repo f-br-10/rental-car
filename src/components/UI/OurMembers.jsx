@@ -51,9 +51,7 @@ const OurMembers = () => {
 
               <div className="single__member-social">
                 <Link 
-                to={`${item.fbUrl}`} 
-                target="_blank"
-                rel="noopener noreferrer"
+                to={`${item.fbUrl}`}
                 onClick={(e) => {
                  e.preventDefault();
                  window.open(`${item.fbUrl}`);
@@ -63,8 +61,6 @@ const OurMembers = () => {
                 </Link>
                 <Link 
                 to={`${item.instUrl}`} 
-                target="_blank"
-                rel="noopener noreferrer"
                 onClick={(e) => {
                  e.preventDefault();
                  window.open(`${item.instUrl}`);

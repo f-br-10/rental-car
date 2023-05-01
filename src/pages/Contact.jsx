@@ -15,14 +15,7 @@ const socialLinks = [
     url: "#",
     icon: "ri-instagram-line",
   },
-  {
-    url: "#",
-    icon: "ri-linkedin-line",
-  },
-  {
-    url: "#",
-    icon: "ri-twitter-line",
-  },
+  
 ];
 
 

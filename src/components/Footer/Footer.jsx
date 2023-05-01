@@ -38,12 +38,14 @@ const Footer = () => {
                   <i class="ri-car-line"></i>
                   <span>
                   Manar Car
+                  
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-            Welcome to Manar Carhabti , your trusted car rental agency! We are dedicated to providing reliable and convenient car rental 
+            Welcome to Manar Car
+             , your trusted car rental agency! We are dedicated to providing reliable and convenient car rental 
               solutions to make your travels easy and enjoyable. Our experienced team is here to assist you throughout the entire
                rental process, from reservation to return, and provide personalized recommendations and tips for your trip. We take
                 pride in our commitment to quality, affordability, and customer satisfaction, and look forward to serving your car
@@ -93,7 +95,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                ManarCarhabti. All rights reserved.
+                ManarCar. All rights reserved.
               </p>
             </div>
           </Col>

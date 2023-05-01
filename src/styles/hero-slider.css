@@ -38,8 +38,8 @@
 }
 
 .reserve__btn {
-    background: #fff !important;
-    color: #000d6b !important;
+    background: #076856 !important;
+    color: #076856 !important;
     border: none;
     outline: none;
 }
@@ -47,11 +47,11 @@
 .reserve__btn a {
     text-decoration: none;
     font-weight: 600;
-    color: #000d6b;
+    color: #f9a826;
 }
 
 .reserve__btn:hover {
-    background: #000d6b;
+    background: #076856;
     color: #fff;
 }
 
